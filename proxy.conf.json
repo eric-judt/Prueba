@@ -1,0 +1,14 @@
+{
+    "/api": {
+      "target": "https://api.estadisticasbcra.com/usd_of",
+      "secure": false,
+      "changeOrigin": true,
+      "pathRewrite": 
+        {
+          "^/api": ""
+        },
+        "Access-Control-Allow-Headers" : "Content-Type",
+        "Access-Control-Allow-Origin": "https://www.example.com",
+        "Access-Control-Allow-Methods": "OPTIONS,POST,GET"
+    }
+  }
